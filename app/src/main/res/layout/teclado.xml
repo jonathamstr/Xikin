@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="false"
+    android:orientation="vertical"
+    android:padding="0dp">
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/sign1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_row="0" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="7"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="8"
+            android:layout_row="0" />
+
+        <ImageView
+            android:id="@+id/sign10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="9"
+            android:layout_row="0" />
+
+        <TextView
+            android:id="@+id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="2"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="3"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="4"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="5"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="6"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="7"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="8"
+            android:layout_row="1" />
+
+        <TextView
+            android:id="@+id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="102dp"
+            android:layout_column="9"
+            android:layout_row="1"
+            android:background="#e7dbdb"
+            android:elevation="24dp" />
+    </GridLayout>
+
+    <GridLayout
+        android:id="@+id/posiblesPalabras"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@android:color/holo_blue_dark">
+
+    </GridLayout>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3.5"
+        android:columnCount="10"
+        android:orientation="vertical"
+        android:rowCount="3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonq"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="q"
+                app:srcCompat="@drawable/q"
+
+                />
+
+            <ImageButton
+                android:id="@+id/imageButtonw"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="w"
+                app:srcCompat="@drawable/w" />
+
+            <ImageButton
+                android:id="@+id/imageButtone"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="e"
+                app:srcCompat="@drawable/e" />
+
+            <ImageButton
+                android:id="@+id/imageButtonr"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="r"
+                app:srcCompat="@drawable/r" />
+
+            <ImageButton
+                android:id="@+id/imageButtont"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="t"
+                app:srcCompat="@drawable/t" />
+
+            <ImageButton
+                android:id="@+id/imageButtony"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="y"
+                app:srcCompat="@drawable/y" />
+
+            <ImageButton
+                android:id="@+id/imageButtonu"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="u"
+                app:srcCompat="@drawable/u" />
+
+            <ImageButton
+                android:id="@+id/imageButtoni"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="i"
+                app:srcCompat="@drawable/i" />
+
+            <ImageButton
+                android:id="@+id/imageButtono"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="o"
+                app:srcCompat="@drawable/o" />
+
+            <ImageButton
+                android:id="@+id/imageButtonp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="p"
+                app:srcCompat="@drawable/p" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtona"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="a"
+                app:srcCompat="@drawable/a" />
+
+            <ImageButton
+                android:id="@+id/imageButtons"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="s"
+                app:srcCompat="@drawable/s" />
+
+            <ImageButton
+                android:id="@+id/imageButtond"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="d"
+                app:srcCompat="@drawable/d" />
+
+            <ImageButton
+                android:id="@+id/imageButtonf"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="f"
+                app:srcCompat="@drawable/f" />
+
+            <ImageButton
+                android:id="@+id/imageButtong"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="g"
+                app:srcCompat="@drawable/g" />
+
+            <ImageButton
+                android:id="@+id/imageButtonh"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="h"
+                app:srcCompat="@drawable/h" />
+
+            <ImageButton
+                android:id="@+id/imageButtonj"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="j"
+                app:srcCompat="@drawable/j" />
+
+            <ImageButton
+                android:id="@+id/imageButtonk"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="k"
+                app:srcCompat="@drawable/k" />
+
+            <ImageButton
+                android:id="@+id/imageButtonl"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="l"
+                app:srcCompat="@drawable/l" />
+
+            <ImageButton
+                android:id="@+id/imageButtonnñ"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="ñ"
+                app:srcCompat="@drawable/ni" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imageButtonz"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="z"
+                app:srcCompat="@drawable/z" />
+
+            <ImageButton
+                android:id="@+id/imageButtonx"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="x"
+                app:srcCompat="@drawable/x" />
+
+            <ImageButton
+                android:id="@+id/imageButtonc"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="c"
+                app:srcCompat="@drawable/c" />
+
+            <ImageButton
+                android:id="@+id/imageButtonv"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="v"
+                app:srcCompat="@drawable/v" />
+
+            <ImageButton
+                android:id="@+id/imageButtonb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="b"
+                app:srcCompat="@drawable/b" />
+
+            <ImageButton
+                android:id="@+id/imageButtonn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="n"
+                app:srcCompat="@drawable/n" />
+
+            <ImageButton
+                android:id="@+id/imageButtonm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="m"
+                app:srcCompat="@drawable/m" />
+
+            <ImageButton
+                android:id="@+id/borrar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="borrar"
+                app:srcCompat="@drawable/quitar" />
+
+
+            <ImageButton
+                android:id="@+id/aceptar"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:adjustViewBounds="true"
+                android:onClick="agregar"
+                android:scaleType="fitXY"
+                android:tag="aceptar"
+                app:srcCompat="@drawable/aceptar" />
+
+
+        </LinearLayout>
+
+
+    </GridLayout>
+</LinearLayout>
