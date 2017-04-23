@@ -16,7 +16,10 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
+        </activity>  <activity android:name=".Escuchar"
+        android:screenOrientation="landscape">
+
+    </activity>
     </application>
 
 </manifest>

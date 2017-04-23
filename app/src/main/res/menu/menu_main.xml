@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="hackaton.cimarrones.com.xikin.MainActivity">
+    <item
+        android:id="@+id/escuchar"
+        android:orderInCategory="100"
+        android:title="escuchar"
+        android:icon="@drawable/otra_vez"
+        app:showAsAction="ifRoom" />
+</menu>
