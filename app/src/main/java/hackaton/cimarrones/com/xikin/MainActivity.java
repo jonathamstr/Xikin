@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity implements TextToSpeech.OnIn
     private EditText editText;
     private SeekBar seekPitch;
     private SeekBar seekSpeed;
-    private double pitch=.5;
-    private double speed=.65;
+    private double pitch=1.4;
+    private double speed=.9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
